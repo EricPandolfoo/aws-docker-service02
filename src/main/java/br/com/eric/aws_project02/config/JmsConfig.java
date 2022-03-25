@@ -40,7 +40,6 @@ public class JmsConfig {
         factory.setConcurrency("2");
         factory.setSessionAcknowledgeMode(Session.CLIENT_ACKNOWLEDGE);
 
-
         return factory;
     }
 
